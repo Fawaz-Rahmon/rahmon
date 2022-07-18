@@ -1,0 +1,401 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8" />
+        <title>Ayubaba Shop - Ayubaba home of Fashion & Logistics</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ayubaba home of Fashion & Logistics" />
+        <meta name="keywords" content="Ayubaba, AyubabaShop, Fashion, Logistics, Delivary" />
+        <meta content="Shreethemes" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Main css File -->
+        <link href="assets/css/style.css" rel="stylesheet" id="theme-opt" type="text/css" />
+        <style>
+
+.custom-switch .custom-control-label:after {
+  top: 4px;
+}
+
+#style-switcher .t-dark,
+#style-switcher .t-rtl-light,
+#style-switcher .t-ltr-dark {
+  display: none;
+}
+
+#style-switcher .t-light,
+#style-switcher .t-rtl-dark {
+  display: inline-block;
+}
+        
+
+#style-switcher {
+  background: none repeat scroll 0 0 #ffffff;
+  -webkit-box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+          box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+  left: -189px;
+  position: fixed;
+  top: 17%;
+  width: 189px;
+  z-index: 9999;
+  padding: 10px 5px;
+}
+
+#style-switcher .title {
+  font-size: 16px;
+}
+
+#style-switcher .bottom {
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+#style-switcher .bottom a.settings {
+  background: none repeat scroll 0 0 #ffffff;
+  height: 41px;
+  position: absolute;
+  right: -41px;
+  top: 0px;
+  width: 40px;
+  padding: 3px;
+  border-radius: 0 30px 30px 0;
+}
+
+#style-switcher ul.pattern {
+  list-style: none outside none;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0px;
+}
+
+#style-switcher ul.pattern li.list-inline-item:not(:last-child) {
+  margin-right: 0px;
+  margin-bottom: 0;
+}
+
+#style-switcher ul.pattern li a {
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+#style-switcher ul.pattern .default {
+  background-color: #2f55d4;
+}
+
+#style-switcher ul.pattern .green {
+  background-color: #6dc77a;
+}
+
+#style-switcher ul.pattern .red {
+  background-color: #ff5b69;
+}
+
+#style-switcher ul.pattern .skyblue {
+  background-color: #32c2ec;
+}
+
+#style-switcher ul.pattern .skobleoff {
+  background-color: #0f7173;
+}
+
+#style-switcher ul.pattern .cyan {
+  background-color: #00c9a7;
+}
+
+#style-switcher .t-dark,
+#style-switcher .t-rtl-light {
+  display: inline-block;
+}
+
+#style-switcher .t-ltr-light,
+#style-switcher .t-light,
+#style-switcher .t-rtl-dark,
+#style-switcher .t-ltr-dark {
+  display: none;
+}
+
+@media only screen and (max-width: 479px) {
+  #style-switcher {
+    display: none;
+  }
+}
+
+
+        </style>
+        <!-- <link href="assets/css/style-dark.css" rel="stylesheet" type="text/css" /> -->
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.php"><img src="assets/images/ayubaba.png" width="20px" height="30px"> Ayu<span class="text-primary">baba</span></a>
+         
+                 <div class="buy-button">
+                    <a  href= "https://play.google.com/store/apps/details?id=com.ayubabamobile.store" target="_blank"  class="btn btn-primary">Download App</a>             
+                </div><!--end login button--><!--end login button-->
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        
+                        <!-- Mobile menu toggle-->
+                       
+                        <a class="navbar-toggle">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu">
+                        <li class="has-submenu active">
+                            <a href="https://www.ayubabashop.com/fashion">Fashion</a>
+                         
+                        </li>
+                        <li class="has-submenu">
+                            <a href="https://www.ayubabashop.com/logistics">Logistics</a>
+                        </li>
+                        
+                             <li class="has-submenu">
+                            <a href="https://www.ayubabashop.com/privacy.html">Policy</a>
+                        </li>
+                      
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Home Start -->
+        <section class="bg-half-170 home-wrapper border-bottom d-table w-100" id="home" style=" padding-top: 100px;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="title-heading">
+                            <h1 class="font-weight-bold">Ayu<span class="text-primary">baba</span></h1>
+                            <h4 class="heading font-weight-bold mb-3">Known For <span class="element text-primary" data-elements=" Quality fashion items, Top notch logistics service, Safety of goods, Prompt Delivery, Online Shopping, Excellent customer service"></span></h4>
+                            <p class="para-desc text-muted">Start shopping your Quality and affordable fashion items with <span class="text-primary font-weight-bold">Ayubaba App</span> or make use of <span class="text-primary font-weight-bold">Ayubaba Logistics</span>, our courier company whose services is second to none.</p>
+                        
+                            <div class="mt-4 pt-2"> 
+                                <a href="https://www.ayubabashop.com/fashion" class="btn btn-primary rounded mouse-down mr-2 mb-2">Fashion</a>
+                                <a href="https://www.ayubabashop.com/logistics" target="_blank" class="btn btn-outline-primary rounded mb-2">Logistics</a>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <img src="assets/images/rocket.svg" class="img-fluid mover" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- Home End -->
+
+        <!-- Demos Start -->
+        <section class="section mt-md-5 mt-lg-4"  style="padding-top: 20px" id="demos">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title mb-4 mb-md-5 text-center">
+                            <h4 class="title text-uppercase font-weight-bold">Explore Ayubaba Shop</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="bg-light shadow rounded px-4 py-5 p-md-5">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="demos-box text-center">
+                                <a href="https://www.ayubabashop.com/fashion" target="_blank">
+                                    <img src="assets/images/demo/fashion.png" class="img-fluid rounded" alt="demo-img">
+                                </a>
+                                <h5 class="title text-uppercase mt-4 mb-0">Ayubaba shop <span class="py-1 px-2 rounded-pill bg-danger text-white h6">FASHION</span></h5>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-md-6 col-12 mt-5 mt-sm-0">
+                            <div class="demos-box text-center">
+                                <a href="https://www.ayubabashop.com/logistics" target="_blank">
+                                    <img src="assets/images/demo/logistics.png" class="img-fluid rounded" alt="demo-img">
+                                </a>
+                                <h5 class="title text-uppercase mt-4 mb-0">Ayubaba shop <span class="py-1 px-2 rounded-pill bg-danger text-white h6">LOGISTICS</span></h5>
+                            </div>
+                        </div><!--end col-->
+    
+                    </div><!--end row-->
+                </div>
+            </div>
+        </section><!--end section-->
+        <!-- Demos End -->
+
+
+        <!-- Start Review -->
+        
+        
+        <section class="section" style="padding-top: 5px" id="review">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title mb-4 text-center">
+                            <h4 class="title text-uppercase font-weight-bold">Happy Clients</h4>
+                        </div>
+                    </div>  
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="clients bg-light p-4 rounded shadow">
+                            <h5>Best and Quality</h5>
+                            <p class="text-muted h6">" The <span class="text-primary">Best service</span> the best shopping app in town "</p>
+                            <div class="media align-items-center mt-3">
+                                <img src="assets/images/ayubaba.png" class="avatar avatar-sm" alt="">
+                                <div class="media-body ml-2">
+                                    <ul class="list-unstyled h6 text-warning mb-0">
+                                        <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                    </ul>
+                                    <small class="text-primary">- Adekunle</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="clients bg-light p-4 rounded shadow">
+                                    <h5>Best and Quality</h5>
+                                    <p class="text-muted h6">" The <span class="text-primary">Best service</span> the best shopping app in town "</p>
+                                    <div class="media align-items-center mt-3">
+                                        <img src="assets/images/ayubaba.png" class="avatar avatar-sm" alt="">
+                                        <div class="media-body ml-2">
+                                            <ul class="list-unstyled h6 text-warning mb-0">
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            </ul>
+                                            <small class="text-primary">- Adekunle</small>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="clients bg-light p-4 rounded shadow">
+                                    <h5>Best and Quality</h5>
+                                    <p class="text-muted h6">" The <span class="text-primary">Best service</span> the best shopping app in town "</p>
+                                    <div class="media align-items-center mt-3">
+                                        <img src="assets/images/ayubaba.png" class="avatar avatar-sm" alt="">
+                                        <div class="media-body ml-2">
+                                            <ul class="list-unstyled h6 text-warning mb-0">
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                                <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            </ul>
+                                            <small class="text-primary">- Adekunle</small>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h4 class="title mb-4 text-uppercase font-weight-bold">Start Shopping With Ayu<span class="text-primary">baba</span></h4>
+                            <p class="text-muted para-desc mx-auto">Download your reliable <span class="text-primary font-weight-bold"> Ayubaba Shopping App</span> for quality and affordable fashion items. </p>
+                            <div class="mt-4 pt-2">
+                               <!--- <a href="https://play.google.com/store/apps/details?id=com.ayubabamobile.store" target="_blank" class="btn btn-primary">Download Now <span class="badge badge-pill badge-danger ml-2">v1.1</span></a-->
+                               <a  href= "https://play.google.com/store/apps/details?id=com.ayubabamobile.store" target="_blank"  class="btn btn-primary">Download Now <span class="badge badge-pill badge-danger ml-2">v1.1</span></a>                            </div>
+                        </div>
+                    </div>  
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        
+        <!--end section-->
+        <!-- End Review -->
+
+        <!-- Footer Start -->
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <p class="mb-0">© 2018-2022 Ayubaba.All rights reserved.  <!--<a href="https://www.therevotek.com/" target="_blank" class="text-success">Revo</a--></p>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!-- Footer End -->
+
+        <!-- <div id="style-switcher" style="left: 0px;" class="bg-light border p-3 pt-2 pb-2">
+            <h3 class="title text-center">Mode</h3>
+            <div class="text-center">
+                <a href="#" class="btn btn-sm w-100 btn-dark dark-version t-dark mt-2">Dark</a>
+                <a href="#" class="btn btn-sm w-100 btn-dark light-version t-light mt-2">Light</a>
+            </div>
+            <div class="bottom">
+                <a href="#" class="settings bg-white shadow d-block"><i class="mdi mdi-settings ml-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div> -->
+
+    <!-- Back to top -->
+        <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
+            <i data-feather="chevron-up" class="icons d-inline-block"></i>
+        </a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/scrollspy.min.js"></script>
+        <!-- Icon -->
+        <script src="assets/js/feather.min.js"></script>
+        <script src="assets/js/unicons.js"></script>
+        <!-- Main Js -->
+        <!-- TYPED -->
+        <script src="assets/js/typed.js"></script>
+        <script src="assets/js/typed.init.js"></script>
+        <script src="assets/js/switcher.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/app.js"></script>
+    </body>
+
+</html>

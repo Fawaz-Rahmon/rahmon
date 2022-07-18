@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+</head>
+<body>
+
+<p> vedio appears below after clicking this button </p>
+<button onclick =" show()">show vedio </button>
+<button onclick="css()">css</button>
+<button onclick="form()"> show form</button>
+
+<h1 id="a"> styling withjavascript</h1>
+<div id ="form"></div>
+
+<script>
+function show(){
+document.getElementById("vedio"). innerHTML="<img src='img/AGER.png' width='100'  height='100'>";
+}
+function form(){
+document.getElementById("vedio"). innerHTML="<form><input type='text'></form>";
+}
+function css(){
+document.getElementById("a"). style.backgroundColor="orange"; 
+document.getElementById("a"). style.color="white"; 
+}
+funtion show(){
+document.getElementById("form").innerHTML='<input type="text" placeholder="signup" name="email" requied=""/>';
+}
+
+
+</script >
+</body>
+</html>
+
